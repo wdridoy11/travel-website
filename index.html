@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   <!-- font awesome link -->
+   <script src="https://kit.fontawesome.com/65b4c8277d.js" crossorigin="anonymous"></script>
+   <!-- tailwind css -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- tailwind custom css -->
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               colors: {
+                  primary: '#ff7e01',
+                  secondary: '#faa935'
+               }
+            }
+         }
+      }
+   </script>
+   <style>
+      body {
+         font-family: 'Poppins', sans-serif;
+      }
+   </style>
+</head>
+
+<body>
+   <main>
+      <!-- Our Featured Tours section start -->
+      <section class="bg-white py-20">
+         <div class="container mx-auto px-5 md:px-10 lg:px-16">
+            <div>
+               <span class="bg-amber-500 px-4 py-1 text-white text-sm rounded-full">Tours</span>
+               <h1 class="text-black text-4xl font-semibold mb-6 mt-4">Our Featured Tours</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+               <!-- Tours place 1 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img01.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">London</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.9(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Westminister Bridge</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 1 end -->
+
+               <!-- Tours place 2 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img02.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">Indonesia</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Bali, Indonesia</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 2 end -->
+
+               <!-- Tours place 3 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img03.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">Thailand</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Snowy Mountains, Thailand</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 3 end -->
+
+               <!-- Tours place 4 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img04.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">Thailand</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Beautiful Sunrise, Thailand</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 4 end -->
+
+               <!-- Tours place 5 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img05.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">Indonesia</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Nusa Pendia Bali, Indonesia</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 5 end -->
+
+               <!-- Tours place 6 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img06.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">Japan</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Cherry Blossoms Spring</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 6 end -->
+
+               <!-- Tours place 7 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img07.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">France</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Holmen Lofoten</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 7 end -->
+
+               <!-- Tours place 8 start -->
+               <div class="shadow-lg rounded-b-lg">
+                  <div class="relative">
+                     <img src="./images/tour-img03.jpg" alt="">
+                     <button class="absolute bottom-0 right-0 bg-primary text-white px-4 py-1 
+                     hover:bg-black transition duration-150">Featured</button>
+                  </div>
+                  <div class="p-4">
+                     <div class="flex justify-between">
+                        <p>
+                           <i class="fa-solid fa-location-dot text-secondary"></i>
+                           <span class="text-base font-medium">Thailand</span>
+                        </p>
+                        <p>
+                           <i class="fa-solid fa-star text-secondary"></i>
+                           <span class="text-base font-medium">4.8(5)</span>
+                        </p>
+                     </div>
+                     <h3 class="text-black text-lg xl:text-xl my-3 font-semibold">Snowy Mountains, Thailand</h3>
+                     <div class="flex justify-between">
+                        <p class="text-secondary text-xl font-semibold">
+                           <span>$100/</span>
+                           <sub class="text-black font-medium">Per Person</sub>
+                        </p>
+                        <button class="bg-secondary text-white px-4 py-1 rounded-lg 
+                        hover:bg-black transition duration-150">Book Now</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- Tours place 8 end -->
+
+            </div>
+         </div>
+      </section>
+      <!-- Our Featured Tours section end -->
+   </main>
+</body>
+
+</html>
